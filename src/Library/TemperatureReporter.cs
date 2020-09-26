@@ -2,7 +2,7 @@ using System;
 
 namespace Observer
 {
-    public class TemperatureReporter : IObserver
+    public class TemperatureReporter : IObserver<Temperature>
     {
         private bool first = true;
 

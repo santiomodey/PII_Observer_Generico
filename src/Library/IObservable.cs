@@ -2,8 +2,8 @@ namespace Observer
 {
     public interface IObservable
     {
-        void Subscribe(IObserver observer);
-
-        void Unsubscribe(IObserver observer);
+        void Subscribe(IObserver<Temperature> Observer); //Agrego Reportador
+        void Unsubscribe(IObserver<Temperature> Observer); //Elimino Reportador
+        
     }
 }
